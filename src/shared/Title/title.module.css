@@ -1,0 +1,13 @@
+.title {
+  font-size: 28px;
+  line-height: 100%;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 36px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 48px;
+  }
+}

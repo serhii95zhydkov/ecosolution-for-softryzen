@@ -1,0 +1,173 @@
+.container {
+  display: block;
+  margin-bottom: 36px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 124px;
+  }
+}
+
+.container__title {
+  @media (min-width: 768px) {
+    flex: 1 1 50%;
+  }
+}
+
+.size__title {
+  max-width: 230px;
+
+  @media (min-width: 1280px) {
+    max-width: 308px;
+  }
+}
+
+.container__paragraph {
+  margin: 24px 0px 0px 0px;
+  text-align: justify;
+
+  @media (min-width: 768px) {
+    margin: 0px;
+    flex: 1 1 50%;
+    padding-left: 11px;
+    border-left: 1px solid #97d28b;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 160px;
+  }
+}
+
+.container__card {
+  margin: -10px;
+
+  @media (min-width: 1280px) {
+    margin: -21px;
+  }
+}
+
+.container__about {
+  display: flex;
+  align-items: stretch;
+}
+
+.card {
+  flex: 1 1 50%;
+  padding: 13px;
+  background: #eaedf1;
+  margin: 10px;
+  min-height: 197px;
+
+  @media (min-width: 768px) {
+    flex: 1 1 25%;
+  }
+
+  @media (min-width: 1280px) {
+    flex: 1 1 19%;
+    padding: 48px 24px;
+    margin: 21px;
+    min-width: 274px;
+  }
+}
+
+.card__img1,
+.card__img2 {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    flex: 1 1 54%;
+    margin: 10px;
+  }
+
+  @media (min-width: 1280px) {
+    margin: 21px;
+    flex: 1 1 50%;
+  }
+}
+
+.card__img1 {
+  @media (min-width: 768px) {
+    background-image: url("/src/images/tablet/wind-farms-fields2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-width: 1280px) {
+    background-image: url("/src/images/desktop/wind-farms-fields2x.jpg");
+  }
+}
+
+.card__img2 {
+  @media (min-width: 768px) {
+    background-image: url("/src/images/tablet/man-worker-firld-by-solar-panels2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-width: 1280px) {
+    background-image: url("/src/images/desktop/man-worker-firld-by-solar-panels2x.jpg");
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 33px;
+  border-bottom: 1px solid #97d28b;
+
+  @media (min-width: 768px) {
+    padding-bottom: 51px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-bottom: 94px;
+  }
+
+  & svg {
+    width: 16px;
+    height: 16px;
+
+    @media (min-width: 1280px) {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  & h4 {
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+      line-height: 133, 333%;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 32px;
+      line-height: 150%;
+    }
+  }
+}
+
+.paragraph {
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: justify;
+  letter-spacing: -0.56px;
+
+  @media (min-width: 1280px) {
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: -0.64px;
+  }
+}
